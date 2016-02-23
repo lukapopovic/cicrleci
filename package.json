@@ -1,0 +1,23 @@
+{
+	"name": "docker-ci",
+	"private": true,
+	"version": "1.0.0",
+	"description": "automated workflow proof of concept",
+	"main": "app.js",
+	"scripts": {
+	"test": "node_modules/.bin/mocha --reporte spec test",
+	"start": "node app.js"
+	},
+	"keywords": [
+		"docker",
+		"ci"
+	],
+	"author": "albert gimeno",
+	"license": "ISC",
+	"dependencies": {
+	"express":"3.2.4",
+	"jade": "1.11.0",
+	"mocha": "1.20.1",
+	"supertest": "1.1.0"
+	}
+}
